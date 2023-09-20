@@ -1,0 +1,11 @@
+---
+title: "Achievements"
+---
+
+## Hackathon
+
+- 1st prize on the mining digital problem at the 2022 University of Witwatersrand Hackathon
+
+- Published article 1 on Hackathon victory: [Web link](https://example.com/article1)
+
+- Published article 2 on hackathon victory: [Web link](https://example.com/article2)

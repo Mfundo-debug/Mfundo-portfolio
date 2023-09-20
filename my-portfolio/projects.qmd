@@ -1,0 +1,35 @@
+---
+title: "Projects"
+---
+
+## Digitizing Mining
+
+- Designed and developed analytical web applications that enabled the digitization and analysis of complex mining documents.
+
+- Programmed functionalities that leveraged advanced techniques in descriptive, diagnostic, and predictive analytics to provide valuable insights to mining stakeholders.
+
+- Mining Document Digitizer Application link: [Web link](https://example.com/mining-app)
+
+- Mining Data Analytics Web Application link: [Web link](https://example.com/mining-analytics)
+
+- Skills: R, Topic Modelling, Text Mining, K-means Clustering, Regression Analysis, OCR, Data Visualization
+
+## Bank Customer Churn
+
+- Developed a Bank Customer prediction model using machine learning techniques such as xgboost to accurately identify customers at risk of leaving the bank.
+
+- Deployed the model within a Streamlit application, allowing for user-friendly interaction and real-time predictions based on customer data.
+
+- Leveraged the `eli5` library for model interpretability, providing insightful explanations for predictions.
+
+- Streamlit app link: [Web link](https://example.com/bank-churn-app)
+
+- Skills: Python, Pandas, Joblib, eli5
+
+## COVID-19 Classification
+
+- Built a Bayesian CNN model in Python to classify patients with COVID-19 using CT scan images with measurements of uncertainty.
+
+- Demonstrated the potential of this approach to improve the accuracy and reliability of COVID-19 diagnosis in a research paper.
+
+- Skills: Python, Deep Learning, TensorFlow, Image Processing, Computer Vision, Bayesian Inference

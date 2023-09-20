@@ -1,0 +1,18 @@
+---
+title: "My Portfolio"
+---
+
+<div class ="row">
+<div class="col-md-4">
+<img src="mfundo_1.jpg" alt="Mfundo Monchwe" class="img-fluid rounded-circle" style="width:300px; hright:300px;">
+<h2> Data Scientist | Researcher | Freelancer </h2>
+<div class="col-md-4">
+<a href ="https://www.linkedin.com/in/mfundo-monchwe-48883314a/" class="btn btn-primary me-2"><i class="bi bi-linkedin"></i>LinkedIn</a>
+<a href="https://github.com/Mfundo-debug" class="btn btn-dark me-2"><i class="bi bi-github"></i>Github</a>
+<a href="https://drive.google.com/file/d/18Val6ENfTB7Lx6i84PFphCFKXziBvGR2/view?usp=sharing" target="_blank" class="btn btn-primary me-2"><i class="bi bi-file-earmark-person"></i>Resume</a>
+<a href="mailto:didimtfundo@gmail.com" class="btn btn-primary me-2"><i class="bi bi-envelope"></i>Email</a>
+</div>
+</div>
+<div class="col-md-8">
+</div>
+</div>

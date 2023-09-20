@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Mfundo Monchwe"
+  repo-url: https://github.com/Mfundo-debug/Mfundo-portfolio
+  repo-actions: [edit, issue]
+  reader-mode: true
+  page-footer: "Copyright © 2023, Mfundo Monchwe"
+  navbar:
+    background: primary
+    search: true
+    right:
+      - href: index.qmd
+        text: Home
+        file: index.qmd
+      - about.qmd
+      - papers.qmd
+      - Achievements.qmd
+      - projects.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
