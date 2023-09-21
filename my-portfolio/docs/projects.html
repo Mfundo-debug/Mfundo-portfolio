@@ -60,6 +60,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -122,9 +124,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#digitizing-mining" id="toc-digitizing-mining" class="nav-link active" data-scroll-target="#digitizing-mining">Digitizing Mining</a></li>
+  <li><a href="#e-commerce-rfm-analysis" id="toc-e-commerce-rfm-analysis" class="nav-link active" data-scroll-target="#e-commerce-rfm-analysis">E-Commerce RFM Analysis</a></li>
+  <li><a href="#ab-testing-for-website-themes" id="toc-ab-testing-for-website-themes" class="nav-link" data-scroll-target="#ab-testing-for-website-themes">A/B Testing for Website Themes</a></li>
+  <li><a href="#api-spotify-requests" id="toc-api-spotify-requests" class="nav-link" data-scroll-target="#api-spotify-requests">API Spotify Requests</a></li>
+  <li><a href="#weather-forecast" id="toc-weather-forecast" class="nav-link" data-scroll-target="#weather-forecast">Weather Forecast</a></li>
+  <li><a href="#mining-process-and-flotation-plant-database" id="toc-mining-process-and-flotation-plant-database" class="nav-link" data-scroll-target="#mining-process-and-flotation-plant-database">Mining Process and Flotation Plant Database</a></li>
+  <li><a href="#credit-scoring-and-segmentation" id="toc-credit-scoring-and-segmentation" class="nav-link" data-scroll-target="#credit-scoring-and-segmentation">Credit Scoring and Segmentation</a>
+  <ul class="collapse">
+  <li><a href="#digitizing-mining" id="toc-digitizing-mining" class="nav-link" data-scroll-target="#digitizing-mining">Digitizing Mining</a></li>
   <li><a href="#bank-customer-churn" id="toc-bank-customer-churn" class="nav-link" data-scroll-target="#bank-customer-churn">Bank Customer Churn</a></li>
   <li><a href="#covid-19-classification" id="toc-covid-19-classification" class="nav-link" data-scroll-target="#covid-19-classification">COVID-19 Classification</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Mfundo-debug/Mfund-debug.github.io/edit/main/projects.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Mfundo-debug/Mfund-debug.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -148,6 +158,139 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="e-commerce-rfm-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="e-commerce-rfm-analysis">E-Commerce RFM Analysis</h2>
+<p>RFM analysis is a powerful technique used by companies to better understand customer behaviour and optimize engagement strategies. It revolves around three key dimensions: recency, frequency, and monetary value. These dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.</p>
+<p>The given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID command and location. The platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.</p>
+<ul class="task-list">
+<li><p><input type="checkbox" checked="">RFM analysis is a powerful technique used by companies to better understand customer behaviour and optimize engagement strategies. It revolves around three key dimensions: recency, frequency, and monetary value.</p></li>
+<li><p><input type="checkbox" checked="">These dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.</p></li>
+<li><p><input type="checkbox" checked="">The given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID command and location.</p></li>
+<li><p><input type="checkbox" checked="">The platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.</p></li>
+</ul>
+<section id="results" class="level4">
+<h4 class="anchored" data-anchor-id="results">Results</h4>
+<p>The analysis provides insights into customer behavior and identification of high-value customers, at-risk customers, and potential opportunities for personalized marketing campaigns. The following tasks were performed:</p>
+<ul>
+<li><p>RFM analysis was performed on the given dataset to segment customers into different groups based on their RFM scores.</p></li>
+<li><p>A detailed analysis of the customer segments was provided, including the distribution of RFM scores, the characteristics of each segment, and actionable insights for the platform to optimize customer engagement strategies.</p>
+<p>The following table shows the RFM customer segments and their corresponding RFM score ranges:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>RFM Customer Segment</th>
+<th>RFM Score Range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Champions</td>
+<td>9-15</td>
+</tr>
+<tr class="even">
+<td>Potential</td>
+<td>6-8</td>
+</tr>
+<tr class="odd">
+<td>At-Risk Customers</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Can’t Lose Them</td>
+<td>4-5</td>
+</tr>
+<tr class="odd">
+<td>Lost Customers</td>
+<td>3</td>
+</tr>
+</tbody>
+</table></li>
+</ul>
+</section>
+<section id="conclusion" class="level4">
+<h4 class="anchored" data-anchor-id="conclusion">Conclusion</h4>
+<p>The RFM analysis provides valuable insights into customer behavior and segmentation, enabling the platform to optimize customer engagement strategies and improve customer satisfaction. The platform can use the insights gained from the analysis to identify high-value customers, at-risk customers, and potential opportunities for personalized marketing campaigns.</p>
+<p><span class="math display">\[
+argmin_{C_1, \ldots, C_K} \sum_{k=1}^{K} \sum_{x \in S_k} | x - C_k |^2
+\]</span></p>
+<p>In summary, clustering is a powerful technique for grouping similar data points together, and K-means clustering is a popular algorithm for many applications, including customer segmentation. By using clustering to identify groups of customers with similar behavior, we can develop targeted marketing strategies to improve customer retention and increase sales.</p>
+</section>
+</section>
+<section id="ab-testing-for-website-themes" class="level2">
+<h2 class="anchored" data-anchor-id="ab-testing-for-website-themes">A/B Testing for Website Themes</h2>
+<p>This project analyzes the performance of two different themes for a website using A/B testing. The goal is to determine which theme yields better user engagement, purchases, and conversion rates.</p>
+<section id="dataset" class="level4">
+<h4 class="anchored" data-anchor-id="dataset">Dataset</h4>
+<p>The dataset contains the following metrics for each theme:</p>
+<ul class="task-list">
+<li><input type="checkbox" checked="">Click Through Rate</li>
+<li><input type="checkbox" checked="">Conversion Rate</li>
+<li><input type="checkbox" checked="">Bounce Rate</li>
+</ul>
+</section>
+<section id="hypothesis-testing" class="level4">
+<h4 class="anchored" data-anchor-id="hypothesis-testing">Hypothesis Testing</h4>
+<p>We performed a t-test for each metric to compare the means of the two groups (Light Theme and Dark Theme). We calculated the mean, standard deviation, t-statistic, p-value, and effect size for each metric.</p>
+<p>Based on the results of the hypothesis tests, we cannot conclude that one theme yields better user engagement, purchases, and conversion rates than the other. For Click Through Rate and Bounce Rate, the Dark Theme had a higher mean than the Light Theme, but the difference was not statistically significant (p-value &gt; 0.05). For Conversion Rate, there was no statistically significant difference between the two themes (p-value &gt; 0.05).</p>
+</section>
+<section id="conclusion-1" class="level4">
+<h4 class="anchored" data-anchor-id="conclusion-1">Conclusion</h4>
+<p>We cannot make a definitive conclusion about which theme is better based on these results. However, you can use these results to inform your decision about which theme to use for your website.</p>
+</section>
+</section>
+<section id="api-spotify-requests" class="level2">
+<h2 class="anchored" data-anchor-id="api-spotify-requests">API Spotify Requests</h2>
+<ul>
+<li><input type="checkbox" checked="">This project is a simple API request to Spotify API. It is a simple project to show how to use API requests in Python.</li>
+<li><input type="checkbox" checked="">The goal of this project is to get the top 10 songs of an artist and create a playlist with them.</li>
+<li><input type="checkbox" checked="">Created a scripts that generates music recommmendations based on a seed track using the <code>Spotify API</code>. Which demonstrated how to authenticate with the API using client credentials and how to make request for <code>music</code> recommendations.</li>
+<li><input type="checkbox" checked="">Created a script that demonstrates how to <code>retrieve</code> information about a <code>track</code>, <code>artist</code>, <code>album</code> and <code>playlist</code> using the <code>Spotify API</code>. Which demonstrated how to authenticate with the API using client credentials and how to make request for <code>artist</code> recommendations.</li>
+<li><input type="checkbox" checked="">Created a Spotify Playlist Data Collection script, which in return shows an example of how to authenticate the API using client credentials and how to make request for <code>playlist</code> data.</li>
+<li>For more information on how to collect data from a Spotify playlist using the Spotify API, please refer to the <a href="https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlist/">Spotify Web API documentation</a></li>
+</ul>
+</section>
+<section id="weather-forecast" class="level2">
+<h2 class="anchored" data-anchor-id="weather-forecast">Weather Forecast</h2>
+<section id="description" class="level4">
+<h4 class="anchored" data-anchor-id="description">Description:</h4>
+<p>Weather forecasting is the task of forecasting weather conditions for a given location and time. With the use of weather data and algorithms, it is possible to predict weather conditions for the next n number of days.</p>
+<p>For forecasting weather using Python, we need a dataset containing historical weather data based on a particular location.</p>
+<p>To Download the <a href="https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data?resource=download/">dataset</a>, click on the link.</p>
+</section>
+</section>
+<section id="mining-process-and-flotation-plant-database" class="level2">
+<h2 class="anchored" data-anchor-id="mining-process-and-flotation-plant-database">Mining Process and Flotation Plant Database</h2>
+<p>The main goal is to use this data to predict how much impurity is in the ore concentrate. As this impurity is measured every hour, if we can predict how much silica (impurity) is in the ore concentrate, we can help the engineers, giving them early information to take actions (empowering)!</p>
+<p>Hence, they will be able to take corrective actions in advance (reduce impurity, if it is the case) and also help the environment (reducing the amount of ore that goes to tailings as you reduce silica in the ore concentrate).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The first column shows time and date range (from march of 2017 until september of 2017). Some columns were sampled every 20 second. Others were sampled on a hourly base.</p>
+<p>The second and third columns are quality measures of the iron ore pulp right before it is fed into the flotation plant. Column 4 until column 8 are the most important variables that impact in the ore quality in the end of the process. From column 9 until column 22, we can see process data level and air flow inside the flotation columns, which also impact in ore quality. The last two columns are the final iron ore pulp quality measurement from the lab.<br>
+Target is to predict the last column, which is the % of silica in the iron ore concentrate.</p>
+</div>
+</div>
+</section>
+<section id="credit-scoring-and-segmentation" class="level1">
+<h1>Credit Scoring and Segmentation</h1>
+<ul class="task-list">
+<li><p><input type="checkbox" checked="">Credit scoring is a statistical analysis performed by lenders and financial institutions to access a person’s creditworthiness. Lenders use credit scoring, among other things, to decide on whether to extend or deny credit.</p></li>
+<li><p><input type="checkbox" checked="">Credit Segmentation refers to the process of dividing the customers into groups based on their credit behavior. The customers are divided into different segments based on their credit score, credit history, and other factors.</p></li>
+<li><p><input type="checkbox" checked="">The goal of this project is to segment customers into different groups based on their credit behavior.</p></li>
+<li><p><input type="checkbox" checked="">You can access the dataset via this link here https://statso.io/credit-scoring-case-study/ or you can download it from the data folder in this repository.</p></li>
+</ul>
+<section id="overview" class="level4">
+<h4 class="anchored" data-anchor-id="overview">Overview</h4>
+<p>Credit scoring aims to determine the creditworthiness of individuals based on their credit profiles. By analyzing factors such as payment history, credit utilization ratio, and number of credit accounts, we can assign a credit score to each individual, providing a quantitative measure of their creditworthiness.</p>
+<p>The given dataset includes features such as age, gender, marital status, education level, employment status, credit utilization ratio, payment history, number of credit accounts, loan amount, interest rate, loan term, type of loan, and income level.</p>
+</section>
 <section id="digitizing-mining" class="level2">
 <h2 class="anchored" data-anchor-id="digitizing-mining">Digitizing Mining</h2>
 <ul>
@@ -177,6 +320,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
