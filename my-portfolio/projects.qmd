@@ -2,6 +2,120 @@
 title: "Projects"
 ---
 
+## E-Commerce RFM Analysis
+
+RFM analysis is a powerful technique used by companies to better understand customer behaviour and optimize engagement strategies. It revolves around three key dimensions: recency, frequency, and monetary value. These dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.
+
+The given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID command and location. The platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.
+
+- [x] RFM analysis is a powerful technique used by companies to better understand customer behaviour and optimize engagement strategies. It revolves around three key dimensions: recency, frequency, and monetary value.
+
+- [x] These dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.
+
+- [x] The given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID command and location.
+
+- [x] The platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.
+
+#### Results
+
+The analysis provides insights into customer behavior and identification of high-value customers, at-risk customers, and potential opportunities for personalized marketing campaigns. The following tasks were performed:
+
+-   RFM analysis was performed on the given dataset to segment customers into different groups based on their RFM scores.
+
+-   A detailed analysis of the customer segments was provided, including the distribution of RFM scores, the characteristics of each segment, and actionable insights for the platform to optimize customer engagement strategies.
+
+    The following table shows the RFM customer segments and their corresponding RFM score ranges:
+
+     | RFM Customer Segment | RFM Score Range |
+    |----------------------|-----------------|
+    | Champions            | 9-15            |
+    | Potential            | 6-8             |
+    | At-Risk Customers    | 5               |
+    | Can't Lose Them      | 4-5             |
+    | Lost Customers       | 3               |
+
+#### Conclusion
+
+The RFM analysis provides valuable insights into customer behavior and segmentation, enabling the platform to optimize customer engagement strategies and improve customer satisfaction. The platform can use the insights gained from the analysis to identify high-value customers, at-risk customers, and potential opportunities for personalized marketing campaigns.
+
+$$
+argmin_{C_1, \ldots, C_K} \sum_{k=1}^{K} \sum_{x \in S_k} | x - C_k |^2
+$$
+
+In summary, clustering is a powerful technique for grouping similar data points together, and K-means clustering is a popular algorithm for many applications, including customer segmentation. By using clustering to identify groups of customers with similar behavior, we can develop targeted marketing strategies to improve customer retention and increase sales.
+
+## A/B Testing for Website Themes
+
+This project analyzes the performance of two different themes for a website using A/B testing. The goal is to determine which theme yields better user engagement, purchases, and conversion rates.
+
+#### Dataset
+
+The dataset contains the following metrics for each theme:
+
+-   [x] Click Through Rate
+-   [x]  Conversion Rate
+-   [x]  Bounce Rate
+
+#### Hypothesis Testing
+
+We performed a t-test for each metric to compare the means of the two groups (Light Theme and Dark Theme). We calculated the mean, standard deviation, t-statistic, p-value, and effect size for each metric.
+
+Based on the results of the hypothesis tests, we cannot conclude that one theme yields better user engagement, purchases, and conversion rates than the other. For Click Through Rate and Bounce Rate, the Dark Theme had a higher mean than the Light Theme, but the difference was not statistically significant (p-value \> 0.05). For Conversion Rate, there was no statistically significant difference between the two themes (p-value \> 0.05).
+
+#### Conclusion
+
+We cannot make a definitive conclusion about which theme is better based on these results. However, you can use these results to inform your decision about which theme to use for your website.
+
+## API Spotify Requests
+
+- [x] This project is a simple API request to Spotify API. It is a simple project to show how to use API requests in Python.
+ - [x] The goal of this project is to get the top 10 songs of an artist and create a playlist with them.
+ - [x] Created a scripts that generates music recommmendations based on a seed track using the `Spotify API`. Which demonstrated how to authenticate with the API using client credentials and how to make request for `music` recommendations.
+ - [x] Created a script that demonstrates how to `retrieve` information about a `track`, `artist`, `album` and `playlist` using the `Spotify API`. Which demonstrated how to authenticate with the API using client credentials and how to make request for `artist` recommendations.
+ - [x] Created a Spotify  Playlist Data Collection script, which in return shows an example of how to authenticate the API using client credentials and how to make request for `playlist` data.
+ - For more information on how to collect data from a Spotify playlist using the Spotify API, please refer to the [Spotify Web API documentation](https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlist/)
+ 
+## Weather Forecast
+
+#### Description:
+
+Weather forecasting is the task of forecasting weather conditions for a given location and time. With the use of weather data and algorithms, it is possible to predict weather conditions for the next n number of days.
+
+For forecasting weather using Python, we need a dataset containing historical weather data based on a particular location.
+
+To Download the [dataset](https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data?resource=download/), click on the link.
+
+## Mining Process and Flotation Plant Database 
+
+The main goal is to use this data to predict how much impurity is in the ore concentrate. As this impurity is measured every hour, if we can predict how much silica (impurity) is in the ore concentrate, we can help the engineers, giving them early information to take actions (empowering)!
+
+Hence, they will be able to take corrective actions in advance (reduce impurity, if it is the case) and also help the environment (reducing the amount of ore that goes to tailings as you reduce silica in the ore concentrate).
+
+
+::: callout-note
+The first column shows time and date range (from march of 2017 until september of 2017). Some columns were sampled every 20 second. Others were sampled on a hourly base.
+
+The second and third columns are quality measures of the iron ore pulp right before it is fed into the flotation plant. Column 4 until column 8 are the most important variables that impact in the ore quality in the end of the process. From column 9 until column 22, we can see process data level and air flow inside the flotation columns, which also impact in ore quality. The last two columns are the final iron ore pulp quality measurement from the lab.\
+Target is to predict the last column, which is the % of silica in the iron ore concentrate.
+:::
+
+# Credit Scoring and Segmentation
+
+-   [x] Credit scoring is a statistical analysis performed by lenders and financial institutions to access a person's creditworthiness. Lenders use credit scoring, among other things, to decide on whether to extend or deny credit.
+
+-   [x] Credit Segmentation refers to the process of dividing the customers into groups based on their credit behavior. The customers are divided into different segments based on their credit score, credit history, and other factors.
+
+-   [x] The goal of this project is to segment customers into different groups based on their credit behavior.
+
+-   [x] You can access the dataset via this link here https://statso.io/credit-scoring-case-study/ or you can download it from the data folder in this repository.
+
+#### Overview
+
+Credit scoring aims to determine the creditworthiness of individuals based on their credit profiles. By analyzing factors such as payment history, credit utilization ratio, and number of credit accounts, we can assign a credit score to each individual, providing a quantitative measure of their creditworthiness.
+
+The given dataset includes features such as age, gender, marital status, education level, employment status, credit utilization ratio, payment history, number of credit accounts, loan amount, interest rate, loan term, type of loan, and income level.
+
+
 ## Digitizing Mining
 
 - Designed and developed analytical web applications that enabled the digitization and analysis of complex mining documents.
