@@ -44,6 +44,8 @@ I possess the following skills:
 - [x] Git
 - [x] GitHub
 - [x] Bayesian Methods
+- [x] Regression Analysis
+- [x] Django
 
 ## Contact Me
 
