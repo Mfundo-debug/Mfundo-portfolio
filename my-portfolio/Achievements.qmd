@@ -9,3 +9,25 @@ title: "Achievements"
 - Published article 1 on Hackathon victory: [Web link](https://example.com/article1)
 
 - Published article 2 on hackathon victory: [Web link](https://example.com/article2)
+
+## Microsoft Training Trophies and Achievements
+
+- [Create machine learning models ](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/NRR3D9AF?sharingId=154153C7E7B8BAE0)
+
+ - [ Get Started With Microsoft data analytics](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/7QGSQ6WZ?sharingId=154153C7E7B8BAE0)
+
+- [AZ-400 Get Started on a DevOps transformation journey](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/U85Y8MM3?sharingId=154153C7E7B8BAE0)
+
+- [Introduction to Machine Learning Operations (MLOps)](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/D5BX88QJ?sharingId=154153C7E7B8BAE0)
+
+- [Explore Azure Machine Learning workspace resources and assets](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/3NDF5FDH?sharingId=154153C7E7B8BAE0)
+
+- [Train and evaluate deep learnnig models](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/V4JTS7YM?sharingId=154153C7E7B8BAE0)
+
+- [Plan Agile with Github Projects and Azure Boards](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/AMM5QJB7?sharingId=154153C7E7B8BAE0)
+
+- [Get started building with Power BI](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/HHCMLY88?sharingId=154153C7E7B8BAE0)
+
+- [Continuous deployment for machine learning](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/WYXB3VWN?sharingId=154153C7E7B8BAE0)
+
+- [Get Started with AI on Azure](https://learn.microsoft.com/api/achievements/share/en-us/MfundoMonchwe-0567/YZHMMEHR?sharingId=154153C7E7B8BAE0)
