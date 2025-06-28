@@ -2,26 +2,24 @@ name: Quarto Publish to GitHub Pages
 
 on:
   push:
-    branches: [main]  # or your default branch
+    branches: [main]
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # (OPTIONAL) Set up Python/R dependencies if needed by your Quarto project
-      # For example, if you use Python:
-      # - name: Set up Python
-      #   uses: actions/setup-python@v5
+      # Optional: Install Node.js if your Quarto site uses JS dependencies
+      # - name: Set up Node.js
+      #   uses: actions/setup-node@v4
       #   with:
-      #     python-version: '3.11'
-      #   # Then pip install dependencies, etc.
+      #     node-version: '20'
 
       - name: Render Quarto Project
         run: quarto render
