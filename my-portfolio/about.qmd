@@ -17,11 +17,17 @@ I have a Bachelor's degreee and Honors degree in Data Sciences from Sol Plaatje 
 **Data Scientist--Consultant**
 Johannesburg, SA
 Apr 2025 – Current
+
 * Developed a data pipeline for the Notto Africa platform, which involved data extraction, transformation, and loading (ETL) processes.
+
 * Developed a machine learning model to predict credit scores for users based on their financial history and behavior.
+
 * Developed an API to integrate the machine learning model with the Notto Africa platform, allowing for real-time credit score predictions.
+
 * Collaborated with the Notto Africa team to ensure the successful deployment and integration of the data pipeline and machine learning model into the platform.
+
 * Used KeyCloak for authentication and authorization of users on the Notto Africa platform.
+
 * Developed Streamlit dashboards to visualize the data and provide insights into user behavior and credit scores.
 
 ### Arena Holdings
