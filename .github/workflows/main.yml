@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Setup Quarto
-      uses: quarto-dev/quarto-actions/setup@v2
+      uses: quarto-dev/quarto-actions/setup@v4
       with:
         version: stable
 
