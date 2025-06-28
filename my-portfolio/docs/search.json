@@ -18,28 +18,28 @@
     "href": "about.html#education",
     "title": "About",
     "section": "Education",
-    "text": "Education\nI have a Bachelor’s degreee and Honors degree in Data Sciences from Sol Plaatje University. I have a background in Statistics, Mathematics, and Machine Learning."
+    "text": "Education\nI have a Bachelor’s degreee and Honors degree in Data Sciences from Sol Plaatje University. I have a background in Statistics, Mathematics, and Machine Learning.\n\nCurrently doing my Masters in Stastistics at the University of KwaZulu-Natal."
   },
   {
     "objectID": "about.html#work-experience",
     "href": "about.html#work-experience",
     "title": "About",
     "section": "Work Experience",
-    "text": "Work Experience\n\nI have worked as a Tutor for Big Data Fundamentals and Introduction to Python programming in the year 2021. This is where I taught contents such as Data wrangling, visualization, how to deal with big data, and how to use Python to solve problems.\nI also work as Freelance Data Scientist and Researcher: Whereby I provide guidance in terms of academic masters research and also in terms of doing projects this includes (data analysis, automating reports, data visualization, data wrangling, data cleaning, data mining, data engineering, machine learning, and statistics).\nI also have collaborated on project(contract) for period of 3 months, analyzing the protein synthesis. The project was based in USA, and I was working remotely. The project was about analyzing the protein synthesis in the cell, and performing some statistical analysis on the data and other confidential parts. The project was done using R and Python programming language."
+    "text": "Work Experience\n\nAvis Budget\nData Scientist Isando, HQ, Kempton Park, SA Apr 2024 – Current\n• Developed shiny dashboard for ilease product\n• Performed Analysis both on Data Quality and Documentation\n• Calculated IRR and Deviations for 6 countries\n• Developed credit risk recommendation system\n• Predicting future prices of a new vehicle using ML model\n\n\nAuditor General of South Africa\nTrainee Data Analyst\nPretoria East Head Office, SA\nMar 2024 – April 2024\n\nProvided data analytics support to various audit business units within the organization.\nDeveloped data analytics models.\nWorked closely with audit business units to identify the “Value-Add”.\nSupported the line manager in providing holistic, comprehensive data analytics reports.\n\n\n\nTutor\nBig Data Fundamentals and Introduction to Python Programming\n2021 - Taught content such as data wrangling, visualization, dealing with big data, and using Python to solve problems.\n\n\nFreelance Data Scientist and Researcher\n\nProvided guidance for academic master’s research and project execution, including data analysis, automating reports, data visualization, data wrangling, data cleaning, data mining, data engineering, machine learning, and statistics.\n\n\n\nProject Collaboration\nProtein Synthesis Analysis\nContract for 3 months\n\nAnalyzed protein synthesis in cells and performed statistical analysis on the data.\nWorked remotely on a project based in the USA using R and Python programming languages."
   },
   {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
     "title": "About",
     "section": "Skills",
-    "text": "Skills\nI possess the following skills:\n\nAWS (Redshift)\nPython\nR\nSQL\nMachine Learning\nData Visualization\nData Wrangling\nData Analysis\nData Cleaning\nData Mining\nData Engineering\nData Science\nStatistics\nMathematics\nResearch\nProblem Solving\nCritical Thinking\nCommunication\nTeamwork\nLeadership\nTime Management\nProject Management\nMicrosoft Office\nGoogle Suite\nLinux\nGit\nGitHub\nBayesian Methods\nRegression Analysis\nDjango"
+    "text": "Skills\n\nProgramming LanguagesData SkillsSoft SkillsTechniquesStatisticsTools\n\n\n\nPython\nR\nSQL\n\n\n\n\nData Wrangling\nData Analysis\nData Cleaning\nData Mining\nData Engineering\nData Science\n\n\n\n\nCommunication\nTeamwork\nLeadership\nTime Management\nProject Management\nCritical Thinking\nProblem Solving\n\n\n\n\nMachine Learning\nData Visualization\n\n\n\n\nStatistical methods\nBayesian Methods\nRegression Analysis\n\n\n\n\nDjango\nLinux\nGit\nGitHub\nMicrosoft Office\nTableau\nPower BI"
   },
   {
     "objectID": "about.html#contact-me",
     "href": "about.html#contact-me",
     "title": "About",
     "section": "Contact Me",
-    "text": "Contact Me\nIf you would like to get in touch with me, feel free to send me an email at my email-address or connect with me on LinkedIn."
+    "text": "Contact Me\nIf you would like to get in touch with me, feel free to send me an email at diditmfundo@gmail.com or connect with me on LinkedIn."
   },
   {
     "objectID": "Achievements.html",
@@ -58,9 +58,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My Portfolio",
+    "title": "Welcome to my portfolio",
     "section": "",
-    "text": "Data Scientist | Researcher | Freelancer\n\n\nLinkedIn Github Resume Email"
+    "text": "Data Scientist | Researcher | Freelancer"
   },
   {
     "objectID": "papers.html",
@@ -95,28 +95,28 @@
     "href": "projects.html#digitizing-mining",
     "title": "Projects",
     "section": "Digitizing Mining",
-    "text": "Digitizing Mining\n\nDesigned and developed analytical web applications that enabled the digitization and analysis of complex mining documents.\nProgrammed functionalities that leveraged advanced techniques in descriptive, diagnostic, and predictive analytics to provide valuable insights to mining stakeholders.\nMining Document Digitizer Application link: Web link\nMining Data Analytics Web Application link: Web link\nSkills: R, Topic Modelling, Text Mining, K-means Clustering, Regression Analysis, OCR, Data Visualization"
+    "text": "Digitizing Mining\n\n\nDesigned and developed analytical web applications that enabled the digitization and analysis of complex mining documents.\nProgrammed functionalities that leveraged advanced techniques in descriptive, diagnostic, and predictive analytics to provide valuable insights to mining stakeholders.\nMining Document Digitizer Application link: Web link\nMining Data Analytics Web Application link: Web link\nSkills: R, Topic Modelling, Text Mining, K-means Clustering, Regression Analysis, OCR, Data Visualization"
   },
   {
     "objectID": "projects.html#bank-customer-churn",
     "href": "projects.html#bank-customer-churn",
     "title": "Projects",
     "section": "Bank Customer Churn",
-    "text": "Bank Customer Churn\n\nDeveloped a Bank Customer prediction model using machine learning techniques such as xgboost to accurately identify customers at risk of leaving the bank.\nDeployed the model within a Streamlit application, allowing for user-friendly interaction and real-time predictions based on customer data.\nLeveraged the eli5 library for model interpretability, providing insightful explanations for predictions.\nStreamlit app link: Web link\nSkills: Python, Pandas, Joblib, eli5"
+    "text": "Bank Customer Churn\n\n\nDeveloped a Bank Customer prediction model using machine learning techniques such as xgboost to accurately identify customers at risk of leaving the bank.\nDeployed the model within a Streamlit application, allowing for user-friendly interaction and real-time predictions based on customer data.\nLeveraged the eli5 library for model interpretability, providing insightful explanations for predictions.\nStreamlit app link: Web link\nSkills: Python, Pandas, Joblib, eli5"
   },
   {
     "objectID": "projects.html#covid-19-classification",
     "href": "projects.html#covid-19-classification",
     "title": "Projects",
     "section": "COVID-19 Classification",
-    "text": "COVID-19 Classification\n\nBuilt a Bayesian CNN model in Python to classify patients with COVID-19 using CT scan images with measurements of uncertainty.\nDemonstrated the potential of this approach to improve the accuracy and reliability of COVID-19 diagnosis in a research paper.\nSkills: Python, Deep Learning, TensorFlow, Image Processing, Computer Vision, Bayesian Inference"
+    "text": "COVID-19 Classification\n\n\nBuilt a Bayesian CNN model in Python to classify patients with COVID-19 using CT scan images with measurements of uncertainty.\nDemonstrated the potential of this approach to improve the accuracy and reliability of COVID-19 diagnosis in a research paper.\nSkills: Python, Deep Learning, TensorFlow, Image Processing, Computer Vision, Bayesian Inference"
   },
   {
     "objectID": "projects.html#mining-process-and-flotation-plant-database",
     "href": "projects.html#mining-process-and-flotation-plant-database",
     "title": "Projects",
     "section": "Mining Process and Flotation Plant Database",
-    "text": "Mining Process and Flotation Plant Database\nThe main goal is to use this data to predict how much impurity is in the ore concentrate. As this impurity is measured every hour, if we can predict how much silica (impurity) is in the ore concentrate, we can help the engineers, giving them early information to take actions (empowering)!\nHence, they will be able to take corrective actions in advance (reduce impurity, if it is the case) and also help the environment (reducing the amount of ore that goes to tailings as you reduce silica in the ore concentrate).\n\n\n\n\n\n\nNote\n\n\n\nThe first column shows time and date range (from march of 2017 until september of 2017). Some columns were sampled every 20 second. Others were sampled on a hourly base.\nThe second and third columns are quality measures of the iron ore pulp right before it is fed into the flotation plant. Column 4 until column 8 are the most important variables that impact in the ore quality in the end of the process. From column 9 until column 22, we can see process data level and air flow inside the flotation columns, which also impact in ore quality. The last two columns are the final iron ore pulp quality measurement from the lab.\nTarget is to predict the last column, which is the % of silica in the iron ore concentrate."
+    "text": "Mining Process and Flotation Plant Database\n\nThe main goal is to use this data to predict how much impurity is in the ore concentrate. As this impurity is measured every hour, if we can predict how much silica (impurity) is in the ore concentrate, we can help the engineers, giving them early information to take actions (empowering)!\nHence, they will be able to take corrective actions in advance (reduce impurity, if it is the case) and also help the environment (reducing the amount of ore that goes to tailings as you reduce silica in the ore concentrate).\n\n\n\n\n\n\nNote\n\n\n\nThe first column shows time and date range (from march of 2017 until september of 2017). Some columns were sampled every 20 second. Others were sampled on a hourly base.\nThe second and third columns are quality measures of the iron ore pulp right before it is fed into the flotation plant. Column 4 until column 8 are the most important variables that impact in the ore quality in the end of the process. From column 9 until column 22, we can see process data level and air flow inside the flotation columns, which also impact in ore quality. The last two columns are the final iron ore pulp quality measurement from the lab. Target is to predict the last column, which is the % of silica in the iron ore concentrate."
   },
   {
     "objectID": "projects.html#weather-forecast",
@@ -130,21 +130,21 @@
     "href": "projects.html#api-spotify-requests",
     "title": "Projects",
     "section": "API Spotify Requests",
-    "text": "API Spotify Requests\n\nThis project is a simple API request to Spotify API. It is a simple project to show how to use API requests in Python.\nThe goal of this project is to get the top 10 songs of an artist and create a playlist with them.\nCreated a scripts that generates music recommmendations based on a seed track using the Spotify API. Which demonstrated how to authenticate with the API using client credentials and how to make request for music recommendations.\nCreated a script that demonstrates how to retrieve information about a track, artist, album and playlist using the Spotify API. Which demonstrated how to authenticate with the API using client credentials and how to make request for artist recommendations.\nCreated a Spotify Playlist Data Collection script, which in return shows an example of how to authenticate the API using client credentials and how to make request for playlist data.\nFor more information on how to collect data from a Spotify playlist using the Spotify API, please refer to the Spotify Web API documentation"
+    "text": "API Spotify Requests\n\n\nThis project is a simple API request to Spotify API. It is a simple project to show how to use API requests in Python.\nThe goal of this project is to get the top 10 songs of an artist and create a playlist with them.\nCreated a scripts that generates music recommmendations based on a seed track using the Spotify API. Which demonstrated how to authenticate with the API using client credentials and how to make request for music recommendations.\nCreated a script that demonstrates how to retrieve information about a track, artist, album and playlist using the Spotify API. Which demonstrated how to authenticate with the API using client credentials and how to make request for artist recommendations.\nCreated a Spotify Playlist Data Collection script, which in return shows an example of how to authenticate the API using client credentials and how to make request for playlist data.\nFor more information on how to collect data from a Spotify playlist using the Spotify API, please refer to the Spotify Web API documentation"
   },
   {
     "objectID": "projects.html#ab-testing-for-website-themes",
     "href": "projects.html#ab-testing-for-website-themes",
     "title": "Projects",
     "section": "A/B Testing for Website Themes",
-    "text": "A/B Testing for Website Themes\nThis project analyzes the performance of two different themes for a website using A/B testing. The goal is to determine which theme yields better user engagement, purchases, and conversion rates.\n\nDataset\nThe dataset contains the following metrics for each theme:\n\nClick Through Rate\nConversion Rate\nBounce Rate\n\n\n\nHypothesis Testing\nWe performed a t-test for each metric to compare the means of the two groups (Light Theme and Dark Theme). We calculated the mean, standard deviation, t-statistic, p-value, and effect size for each metric.\nBased on the results of the hypothesis tests, we cannot conclude that one theme yields better user engagement, purchases, and conversion rates than the other. For Click Through Rate and Bounce Rate, the Dark Theme had a higher mean than the Light Theme, but the difference was not statistically significant (p-value &gt; 0.05). For Conversion Rate, there was no statistically significant difference between the two themes (p-value &gt; 0.05).\n\n\nConclusion\nWe cannot make a definitive conclusion about which theme is better based on these results. However, you can use these results to inform your decision about which theme to use for your website."
+    "text": "A/B Testing for Website Themes\n\nThis project analyzes the performance of two different themes for a website using A/B testing. The goal is to determine which theme yields better user engagement, purchases, and conversion rates.\n\nDataset\nThe dataset contains the following metrics for each theme:\n\nClick Through Rate\nConversion Rate\nBounce Rate\n\n\n\nHypothesis Testing\nWe performed a t-test for each metric to compare the means of the two groups (Light Theme and Dark Theme). We calculated the mean, standard deviation, t-statistic, p-value, and effect size for each metric.\nBased on the results of the hypothesis tests, we cannot conclude that one theme yields better user engagement, purchases, and conversion rates than the other. For Click Through Rate and Bounce Rate, the Dark Theme had a higher mean than the Light Theme, but the difference was not statistically significant (p-value &gt; 0.05). For Conversion Rate, there was no statistically significant difference between the two themes (p-value &gt; 0.05).\n\n\nConclusion\nWe cannot make a definitive conclusion about which theme is better based on these results. However, you can use these results to inform your decision about which theme to use for your website."
   },
   {
     "objectID": "projects.html#e-commerce-rfm-analysis",
     "href": "projects.html#e-commerce-rfm-analysis",
     "title": "Projects",
     "section": "E-Commerce RFM Analysis",
-    "text": "E-Commerce RFM Analysis\nRFM analysis is a powerful technique used by companies to better understand customer behaviour and optimize engagement strategies. It revolves around three key dimensions: recency, frequency, and monetary value. These dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.\nThe given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID command and location. The platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.\n\nRFM analysis is a powerful technique used by companies to better understand customer behaviour and optimize engagement strategies. It revolves around three key dimensions: recency, frequency, and monetary value.\nThese dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.\nThe given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID command and location.\nThe platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.\n\n\nResults\nThe analysis provides insights into customer behavior and identification of high-value customers, at-risk customers, and potential opportunities for personalized marketing campaigns. The following tasks were performed:\n\nRFM analysis was performed on the given dataset to segment customers into different groups based on their RFM scores.\nA detailed analysis of the customer segments was provided, including the distribution of RFM scores, the characteristics of each segment, and actionable insights for the platform to optimize customer engagement strategies.\nThe following table shows the RFM customer segments and their corresponding RFM score ranges:\n\n\n\nRFM Customer Segment\nRFM Score Range\n\n\n\n\nChampions\n9-15\n\n\nPotential\n6-8\n\n\nAt-Risk Customers\n5\n\n\nCan’t Lose Them\n4-5\n\n\nLost Customers\n3\n\n\n\n\n\n\nConclusion\nThe RFM analysis provides valuable insights into customer behavior and segmentation, enabling the platform to optimize customer engagement strategies and improve customer satisfaction. The platform can use the insights gained from the analysis to identify high-value customers, at-risk customers, and potential opportunities for personalized marketing campaigns.\n\\[\nargmin_{C_1, \\ldots, C_K} \\sum_{k=1}^{K} \\sum_{x \\in S_k} | x - C_k |^2\n\\]\nIn summary, clustering is a powerful technique for grouping similar data points together, and K-means clustering is a popular algorithm for many applications, including customer segmentation. By using clustering to identify groups of customers with similar behavior, we can develop targeted marketing strategies to improve customer retention and increase sales."
+    "text": "E-Commerce RFM Analysis\n\nRFM analysis is a powerful technique used by companies to better understand customer behaviour and optimize engagement strategies. It revolves around three key dimensions: recency, frequency, and monetary value. These dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.\nThe given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID command and location. The platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.\n\nRFM analysis is a powerful technique used by companies to better understand customer behaviour and optimize engagement strategies. It revolves around three key dimensions: recency, frequency, and monetary value.\nThese dimensions capture essential aspects of customer transactions, providing valuable information for segmentation and personalized marketing campaigns.\nThe given dataset is provided by an e-commerce platform containing customer transaction data including customer ID, purchase date, transaction amount, product information, ID command and location.\nThe platform aims to leverage RFM (recency, frequency, monetary value) analysis to segment customers and optimize customer engagement strategies.\n\n\nResults\nThe analysis provides insights into customer behavior and identification of high-value customers, at-risk customers, and potential opportunities for personalized marketing campaigns. The following tasks were performed:\n\nRFM analysis was performed on the given dataset to segment customers into different groups based on their RFM scores.\nA detailed analysis of the customer segments was provided, including the distribution of RFM scores, the characteristics of each segment, and actionable insights for the platform to optimize customer engagement strategies.\nThe following table shows the RFM customer segments and their corresponding RFM score ranges:\n\n\n\nRFM Customer Segment\nRFM Score Range\n\n\n\n\nChampions\n9-15\n\n\nPotential\n6-8\n\n\nAt-Risk Customers\n5\n\n\nCan’t Lose Them\n4-5\n\n\nLost Customers\n3\n\n\n\n\n\n\nConclusion\nThe RFM analysis provides valuable insights into customer behavior and segmentation, enabling the platform to optimize customer engagement strategies and improve customer satisfaction. The platform can use the insights gained from the analysis to identify high-value customers, at-risk customers, and potential opportunities for personalized marketing campaigns.\n\\[\nargmin_{C_1, \\ldots, C_K} \\sum_{k=1}^{K} \\sum_{x \\in S_k} | x - C_k |^2\n\\]\nIn summary, clustering is a powerful technique for grouping similar data points together, and K-means clustering is a popular algorithm for many applications, including customer segmentation. By using clustering to identify groups of customers with similar behavior, we can develop targeted marketing strategies to improve customer retention and increase sales."
   },
   {
     "objectID": "Achievements.html#microsoft-training-trophies-and-achievements",
@@ -158,7 +158,7 @@
     "href": "projects.html#credit-scoring-and-segmentation",
     "title": "Projects",
     "section": "Credit Scoring and Segmentation",
-    "text": "Credit Scoring and Segmentation\n\nCredit scoring is a statistical analysis performed by lenders and financial institutions to access a person’s creditworthiness. Lenders use credit scoring, among other things, to decide on whether to extend or deny credit.\nCredit Segmentation refers to the process of dividing the customers into groups based on their credit behavior. The customers are divided into different segments based on their credit score, credit history, and other factors.\nThe goal of this project is to segment customers into different groups based on their credit behavior.\nYou can access the dataset via this link here https://statso.io/credit-scoring-case-study/ or you can download it from the data folder in this repository.\n\n\nOverview\nCredit scoring aims to determine the creditworthiness of individuals based on their credit profiles. By analyzing factors such as payment history, credit utilization ratio, and number of credit accounts, we can assign a credit score to each individual, providing a quantitative measure of their creditworthiness.\nThe given dataset includes features such as age, gender, marital status, education level, employment status, credit utilization ratio, payment history, number of credit accounts, loan amount, interest rate, loan term, type of loan, and income level."
+    "text": "Credit Scoring and Segmentation\n\n\nCredit scoring is a statistical analysis performed by lenders and financial institutions to access a person’s creditworthiness. Lenders use credit scoring, among other things, to decide on whether to extend or deny credit.\nCredit Segmentation refers to the process of dividing the customers into groups based on their credit behavior. The customers are divided into different segments based on their credit score, credit history, and other factors.\nThe goal of this project is to segment customers into different groups based on their credit behavior.\nYou can access the dataset via this link here https://statso.io/credit-scoring-case-study/ or you can download it from the data folder in this repository.\n\n\nOverview\nCredit scoring aims to determine the creditworthiness of individuals based on their credit profiles. By analyzing factors such as payment history, credit utilization ratio, and number of credit accounts, we can assign a credit score to each individual, providing a quantitative measure of their creditworthiness.\nThe given dataset includes features such as age, gender, marital status, education level, employment status, credit utilization ratio, payment history, number of credit accounts, loan amount, interest rate, loan term, type of loan, and income level."
   },
   {
     "objectID": "projects.html#shinyapp-on-ab-testing-theme",
@@ -166,5 +166,61 @@
     "title": "Projects",
     "section": "",
     "text": "This is simple shinydashboard of the previous project on A/B Testing for Website Themes. The goal is to determine which theme yields better user engagement, purchases, and conversion rates.\nSo basically just shows the results of the previous project in a shinydashboard."
+  },
+  {
+    "objectID": "about.html#skills-1",
+    "href": "about.html#skills-1",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nTechnical Skills\nData Skills\nSoft Skills\n\n\n\n\nAWS (Redshift)\nData Wrangling\nCommunication\n\n\nPython\nData Analysis\nTeamwork\n\n\nR\nData Cleaning\nLeadership\n\n\nSQL\nData Mining\nTime Management\n\n\nMachine Learning\nData Engineering\nProject Management\n\n\nData Visualization\nData Science\nCritical Thinking\n\n\nStatistics\n\nProblem Solving\n\n\nMathematics\n\n\n\n\nResearch\n\n\n\n\nBayesian Methods\n\n\n\n\nRegression Analysis\n\n\n\n\nDjango\n\n\n\n\nLinux\n\n\n\n\nGit\n\n\n\n\nGitHub\n\n\n\n\nMicrosoft Office\n\n\n\n\nGoogle Suite"
+  },
+  {
+    "objectID": "about.html#programming-languages",
+    "href": "about.html#programming-languages",
+    "title": "About",
+    "section": "Programming Languages",
+    "text": "Programming Languages\n\nPython\nR\nSQL"
+  },
+  {
+    "objectID": "about.html#data-skills",
+    "href": "about.html#data-skills",
+    "title": "About",
+    "section": "Data Skills",
+    "text": "Data Skills\n\nData Wrangling\nData Analysis\nData Cleaning\nData Mining\nData Engineering\nData Science"
+  },
+  {
+    "objectID": "about.html#soft-skills",
+    "href": "about.html#soft-skills",
+    "title": "About",
+    "section": "Soft Skills",
+    "text": "Soft Skills\n\nCommunication\nTeamwork\nLeadership\nTime Management\nProject Management\nCritical Thinking\nProblem Solving"
+  },
+  {
+    "objectID": "about.html#techniques",
+    "href": "about.html#techniques",
+    "title": "About",
+    "section": "Techniques",
+    "text": "Techniques\n\nMachine Learning\nData Visualization"
+  },
+  {
+    "objectID": "about.html#statistics",
+    "href": "about.html#statistics",
+    "title": "About",
+    "section": "Statistics",
+    "text": "Statistics\n\nStatistics\nBayesian Methods\nRegression Analysis"
+  },
+  {
+    "objectID": "about.html#tools",
+    "href": "about.html#tools",
+    "title": "About",
+    "section": "Tools",
+    "text": "Tools\n\nDjango\nLinux\nGit\nGitHub\nMicrosoft Office"
+  },
+  {
+    "objectID": "about.html#auditor-general-of-south-africa",
+    "href": "about.html#auditor-general-of-south-africa",
+    "title": "About",
+    "section": "Auditor General of South Africa",
+    "text": "Auditor General of South Africa\nPretoria East Head Office, SA\nMar 2024 – April 2024 - Provided data analytics support to various audit business units within the organization. - Developed data analytics models. - Worked closely with audit business units to identify the “Value-Add”. - Supported the line manager in providing holistic, comprehensive data analytics reports."
   }
 ]

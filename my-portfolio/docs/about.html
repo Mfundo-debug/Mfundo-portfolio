@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.4.533">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,22 +30,29 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./logo.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,9 +76,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./logo.jpg" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Mfundo Monchwe</span>
     </a>
@@ -82,34 +93,34 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
- <span class="menu-text">About</span></a>
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html" rel="" target="">
- <span class="menu-text">Papers</span></a>
+    <a class="nav-link" href="./papers.html"> 
+<span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Achievements.html" rel="" target="">
- <span class="menu-text">Achievements</span></a>
+    <a class="nav-link" href="./Achievements.html"> 
+<span class="menu-text">Achievements</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
 </a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -124,11 +135,18 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
+  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a>
+  <ul class="collapse">
+  <li><a href="#avis-budget" id="toc-avis-budget" class="nav-link" data-scroll-target="#avis-budget">Avis Budget</a></li>
+  <li><a href="#auditor-general-of-south-africa" id="toc-auditor-general-of-south-africa" class="nav-link" data-scroll-target="#auditor-general-of-south-africa">Auditor General of South Africa</a></li>
+  <li><a href="#tutor" id="toc-tutor" class="nav-link" data-scroll-target="#tutor">Tutor</a></li>
+  <li><a href="#freelance-data-scientist-and-researcher" id="toc-freelance-data-scientist-and-researcher" class="nav-link" data-scroll-target="#freelance-data-scientist-and-researcher">Freelance Data Scientist and Researcher</a></li>
+  <li><a href="#project-collaboration" id="toc-project-collaboration" class="nav-link" data-scroll-target="#project-collaboration">Project Collaboration</a></li>
+  </ul></li>
   <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
   <li><a href="#contact-me" id="toc-contact-me" class="nav-link" data-scroll-target="#contact-me">Contact Me</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Mfundo-debug/Mfund-debug.github.io/edit/main/about.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Mfundo-debug/Mfund-debug.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/Mfundo-debug/Mfund-debug.github.io/edit/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Mfundo-debug/Mfund-debug.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -148,7 +166,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
@@ -157,54 +177,117 @@ ul.task-list li input[type="checkbox"] {
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
 <p>I have a Bachelor’s degreee and Honors degree in Data Sciences from Sol Plaatje University. I have a background in Statistics, Mathematics, and Machine Learning.</p>
+<ul>
+<li>Currently doing my Masters in Stastistics at the University of KwaZulu-Natal.</li>
+</ul>
 </section>
 <section id="work-experience" class="level2">
 <h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
+<section id="avis-budget" class="level3">
+<h3 class="anchored" data-anchor-id="avis-budget">Avis Budget</h3>
+<p><strong>Data Scientist</strong> Isando, HQ, Kempton Park, SA Apr 2024 – Current</p>
+<p>• Developed shiny dashboard for ilease product</p>
+<p>• Performed Analysis both on Data Quality and Documentation</p>
+<p>• Calculated IRR and Deviations for 6 countries</p>
+<p>• Developed credit risk recommendation system</p>
+<p>• Predicting future prices of a new vehicle using ML model</p>
+</section>
+<section id="auditor-general-of-south-africa" class="level3">
+<h3 class="anchored" data-anchor-id="auditor-general-of-south-africa">Auditor General of South Africa</h3>
+<p><strong>Trainee Data Analyst</strong><br>
+Pretoria East Head Office, SA<br>
+Mar 2024 – April 2024</p>
 <ul>
-<li><p>I have worked as a Tutor for Big Data Fundamentals and Introduction to Python programming in the year 2021. This is where I taught contents such as Data wrangling, visualization, how to deal with big data, and how to use Python to solve problems.</p></li>
-<li><p>I also work as Freelance Data Scientist and Researcher: Whereby I provide guidance in terms of academic masters research and also in terms of doing projects this includes (data analysis, automating reports, data visualization, data wrangling, data cleaning, data mining, data engineering, machine learning, and statistics).</p></li>
-<li><p>I also have collaborated on project(contract) for period of 3 months, analyzing the protein synthesis. The project was based in USA, and I was working remotely. The project was about analyzing the protein synthesis in the cell, and performing some statistical analysis on the data and other confidential parts. The project was done using R and Python programming language.</p></li>
+<li><p>Provided data analytics support to various audit business units within the organization.</p></li>
+<li><p>Developed data analytics models.</p></li>
+<li><p>Worked closely with audit business units to identify the “Value-Add”.</p></li>
+<li><p>Supported the line manager in providing holistic, comprehensive data analytics reports.</p></li>
 </ul>
+</section>
+<section id="tutor" class="level3">
+<h3 class="anchored" data-anchor-id="tutor">Tutor</h3>
+<p><strong>Big Data Fundamentals and Introduction to Python Programming</strong><br>
+2021 - Taught content such as data wrangling, visualization, dealing with big data, and using Python to solve problems.</p>
+</section>
+<section id="freelance-data-scientist-and-researcher" class="level3">
+<h3 class="anchored" data-anchor-id="freelance-data-scientist-and-researcher">Freelance Data Scientist and Researcher</h3>
+<ul>
+<li>Provided guidance for academic master’s research and project execution, including data analysis, automating reports, data visualization, data wrangling, data cleaning, data mining, data engineering, machine learning, and statistics.</li>
+</ul>
+</section>
+<section id="project-collaboration" class="level3">
+<h3 class="anchored" data-anchor-id="project-collaboration">Project Collaboration</h3>
+<p><strong>Protein Synthesis Analysis</strong><br>
+Contract for 3 months</p>
+<ul>
+<li><p>Analyzed protein synthesis in cells and performed statistical analysis on the data.</p></li>
+<li><p>Worked remotely on a project based in the USA using R and Python programming languages.</p></li>
+</ul>
+</section>
 </section>
 <section id="skills" class="level2">
 <h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<p>I possess the following skills:</p>
-<ul class="task-list">
-<li><input type="checkbox" checked="">AWS (Redshift)</li>
-<li><input type="checkbox" checked="">Python</li>
-<li><input type="checkbox" checked="">R</li>
-<li><input type="checkbox" checked="">SQL</li>
-<li><input type="checkbox" checked="">Machine Learning</li>
-<li><input type="checkbox" checked="">Data Visualization</li>
-<li><input type="checkbox" checked="">Data Wrangling</li>
-<li><input type="checkbox" checked="">Data Analysis</li>
-<li><input type="checkbox" checked="">Data Cleaning</li>
-<li><input type="checkbox" checked="">Data Mining</li>
-<li><input type="checkbox" checked="">Data Engineering</li>
-<li><input type="checkbox" checked="">Data Science</li>
-<li><input type="checkbox" checked="">Statistics</li>
-<li><input type="checkbox" checked="">Mathematics</li>
-<li><input type="checkbox" checked="">Research</li>
-<li><input type="checkbox" checked="">Problem Solving</li>
-<li><input type="checkbox" checked="">Critical Thinking</li>
-<li><input type="checkbox" checked="">Communication</li>
-<li><input type="checkbox" checked="">Teamwork</li>
-<li><input type="checkbox" checked="">Leadership</li>
-<li><input type="checkbox" checked="">Time Management</li>
-<li><input type="checkbox" checked="">Project Management</li>
-<li><input type="checkbox" checked="">Microsoft Office</li>
-<li><input type="checkbox" checked="">Google Suite</li>
-<li><input type="checkbox" checked="">Linux</li>
-<li><input type="checkbox" checked="">Git</li>
-<li><input type="checkbox" checked="">GitHub</li>
-<li><input type="checkbox" checked="">Bayesian Methods</li>
-<li><input type="checkbox" checked="">Regression Analysis</li>
-<li><input type="checkbox" checked="">Django</li>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Programming Languages</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Data Skills</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Soft Skills</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Techniques</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Statistics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">Tools</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<ul>
+<li>Python</li>
+<li>R</li>
+<li>SQL</li>
 </ul>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ul>
+<li>Data Wrangling</li>
+<li>Data Analysis</li>
+<li>Data Cleaning</li>
+<li>Data Mining</li>
+<li>Data Engineering</li>
+<li>Data Science</li>
+</ul>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<ul>
+<li>Communication</li>
+<li>Teamwork</li>
+<li>Leadership</li>
+<li>Time Management</li>
+<li>Project Management</li>
+<li>Critical Thinking</li>
+<li>Problem Solving</li>
+</ul>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<ul>
+<li>Machine Learning</li>
+<li>Data Visualization</li>
+</ul>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<ul>
+<li>Statistical methods</li>
+<li>Bayesian Methods</li>
+<li>Regression Analysis</li>
+</ul>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<ul>
+<li>Django</li>
+<li>Linux</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Microsoft Office</li>
+<li>Tableau</li>
+<li>Power BI</li>
+</ul>
+</div>
+</div>
+</div>
 </section>
 <section id="contact-me" class="level2">
 <h2 class="anchored" data-anchor-id="contact-me">Contact Me</h2>
-<p>If you would like to get in touch with me, feel free to send me an email at <a href="mailto:diditmfundo@gmail.com">my email-address</a> or connect with me on <a href="https://www.linkedin.com/in/mfundo-monchwe-48883314a/">LinkedIn</a>.</p>
+<p>If you would like to get in touch with me, feel free to send me an email at <a href="mailto:diditmfundo@gmail.com">diditmfundo@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/mfundo-monchwe-48883314a/">LinkedIn</a>.</p>
 
 
 </section>
@@ -289,10 +372,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -302,8 +384,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -316,6 +407,120 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -359,6 +564,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -384,6 +590,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -449,12 +681,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright © 2023, Mfundo Monchwe</div>
+    <div class="nav-footer-center">
+<p>Copyright © 2024, Mfundo Monchwe</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Mfundo-debug/Mfund-debug.github.io/edit/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Mfundo-debug/Mfund-debug.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
