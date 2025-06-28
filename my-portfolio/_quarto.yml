@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: " Mfundo Monchwe"
+  title: "Mfundo Monchwe"
   favicon: "logo.jpg"
   image: "logo.jpg"
-  repo-url: https://github.com/Mfundo-debug/Mfund-debug.github.io
+  repo-url: https://github.com/Mfundo-debug/Mfund-portfolio
   repo-actions: [edit, issue]
   reader-mode: true
   page-footer: "Copyright © 2025, Mfundo Monchwe"
@@ -17,7 +17,7 @@ website:
     right:
       - href: index.qmd
         text: Home
-        file: index.qmd
+        
       - about.qmd
       - papers.qmd
       - Achievements.qmd
