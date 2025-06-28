@@ -13,8 +13,9 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
       - name: Render site
         run: quarto render
+        working-directory: my-portfolio
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: my-portfolio/docs
