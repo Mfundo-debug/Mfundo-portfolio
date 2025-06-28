@@ -9,7 +9,7 @@ website:
   repo-url: https://github.com/Mfundo-debug/Mfund-debug.github.io
   repo-actions: [edit, issue]
   reader-mode: true
-  page-footer: "Copyright © 2024, Mfundo Monchwe"
+  page-footer: "Copyright © 2025, Mfundo Monchwe"
   navbar:
     logo: "logo.jpg"
     background: primary
