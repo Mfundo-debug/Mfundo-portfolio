@@ -1,32 +1,37 @@
-name: Quarto Publish to GitHub Pages
+name: Build Quarto Site
 
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+    - name: Setup Quarto
+      uses: quarto-dev/quarto-actions/setup@v2
+      with:
+        version: stable
 
-      # Optional: Install Node.js if your Quarto site uses JS dependencies
-      # - name: Set up Node.js
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: '20'
+    - name: Install Pandoc (if needed)
+      run: sudo apt-get install pandoc
 
-      - name: Render Quarto Project
-        run: quarto render
+    - name: Install dependencies (if using R or Python)
+      run: |
+        pip install -r requirements.txt || true
+        Rscript -e 'if (!require("quarto")) install.packages("quarto", repos="https://cloud.r-project.org")' || true
 
-      - name: Publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Render Quarto site
+      run: quarto render
+
+    - name: Upload site artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: site
+        path: _site/
